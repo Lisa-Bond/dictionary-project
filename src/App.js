@@ -16,7 +16,19 @@ export default function App() {
         <main>
           <Dictionary />
         </main>
-        <footer className="text-center">Coded by me</footer>
+        <footer className="text-center">
+          Coded by{" "}
+          <a href="https://www.facebook.com/lisabondarenko/" target="_blank">
+            Lisa Bondarenko
+          </a>{" "}
+          and is open-sourced at{" "}
+          <a
+            href="https://github.com/Lisa-Bond/dictionary-project"
+            target="_blank"
+          >
+            GitHub
+          </a>
+        </footer>
       </div>
     </div>
   );
