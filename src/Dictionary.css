@@ -1,3 +1,23 @@
 form {
   text-align: center;
 }
+
+.Dictionary .Hint {
+  font-size: 12px;
+  margin-top: 8px;
+  text-align: center;
+}
+
+.Dictionary input {
+  border: 1px solid #ddd;
+  padding: 6px 5px;
+  width: 80%;
+}
+
+.Dictionary section {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  margin: 20px 0;
+  padding: 15px;
+}
